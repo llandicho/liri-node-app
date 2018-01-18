@@ -21,8 +21,6 @@ var userInput = process.argv[3]
 
 
 //Twitter function
-
-
 var params = {screen_name: 'louellalandicho'};
 client.get('statuses/user_timeline', params, function(error, tweets, response) {
   if (!error) {
